@@ -1138,7 +1138,7 @@ class _HistoryPageState extends State<HistoryPage> {
         centerTitle: true,
       ),
       body: _items.isEmpty
-          ? const Center(child: Text('全て確認済みですです 🎉',
+          ? const Center(child: Text('全て確認済みです 🎉',
               style: TextStyle(fontSize: 16, color: Colors.grey)))
           : Container(
               color: Colors.blueGrey.shade50,
